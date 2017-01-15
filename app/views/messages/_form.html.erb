@@ -27,6 +27,13 @@
   </div>
   
   <div class="form-group">
+    <%= f.label :age, "年齢:", class:"col-md-2 control-label" %>
+    <div class="col-md-1">
+      <%= f.number_field :age, class:"form-control", placeholder: "年齢" %>
+    </div>
+  </div>
+  
+  <div class="form-group">
       <div class="col-sm-offset-2 col-sm-10">
       <%= f.submit class: "btn btn-sm btn-primary" %>
       </div>
